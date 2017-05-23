@@ -1,0 +1,95 @@
+/*import dependencies*/
+@import 'semantic.css';
+@import 'font-awesome.min.css';
+
+body, html {
+  height: 100%;
+}
+
+header {
+  padding-top: 1em;
+}
+
+.main {
+  margin: 1em 0;
+  height: 90%;
+}
+
+.editormd-preview-close-btn {
+  display: none;
+}
+
+#editormd {
+  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+
+#editor-area-theme-select {
+  height: 350px;
+  overflow: auto;
+}
+
+#signin span {
+  margin-left: 0.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+}
+
+#signout, #notebook-info {
+  display: none;
+}
+
+#signout span {
+  margin-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ui.modal > .close {
+  top: 0;
+  right: 0;
+  color: #000;
+}
+
+[data-tooltip]:before, [data-tooltip]:after {
+  z-index: 1000;
+}
+
+#file-info span, #notebook-list .item {
+  cursor: pointer;
+}
+
+#file-info {
+  width: 350px;
+}
+
+.markdown-body,
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  font-family: 'Lato',"Helvetica Neue","Droid Sans","微软雅黑","Microsoft YaHei",Helvetica,"Meiryo UI","Malgun Gothic","Segoe UI","Trebuchet MS",Monaco,monospace,Tahoma,STXihei,"华文细黑",STHeiti,"wenquanyi micro hei",FreeSans,Arimo,Arial,SimSun,"宋体",Heiti,"黑体",sans-serif;
+}
+
+.indicator {
+  top: 0px;
+  height: 2px;
+  margin-bottom: -2px;
+  background: #1669bb;
+  width: 0;
+  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+
+#notebook-list .fa {
+  padding-right: 1em;
+}
+
+.editormd-html-preview blockquote, .editormd-preview-container blockquote {
+  font-style: normal;
+}
+
+.editormd-html-preview code, .editormd-html-preview kbd, .editormd-html-preview pre, .editormd-preview-container code, .editormd-preview-container kbd, .editormd-preview-container pre {
+  font-family: "YaHei Consolas Hybrid",Consolas,"Meiryo UI","Malgun Gothic","Segoe UI","Trebuchet MS",Helvetica,monospace,monospace,"微软雅黑","Microsoft YaHei";
+}
