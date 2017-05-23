@@ -13,7 +13,7 @@ This work is based on [Editor.md](https://github.com/pandao/editor.md), just ext
 
 After login with your Google acount, you can create new Markdown notes in "File -> New".
 
-![new note](https://vgy.me/B2UdSY.png)
+![new note](https://vgy.me/8hcC77.png)
 
 Give your note a name, and set a "notebook" where the note stores ("Default Notebook" if not specified).
 
