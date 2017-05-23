@@ -23,7 +23,7 @@ $(document)
             $("#notebook-info .text").text("Default Notebook");
         }
         mainEditor.cm.setValue("");
-    });    
+    });
 
     // Initialize Firebase
     var config = {
