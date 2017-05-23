@@ -25,6 +25,10 @@ Click "File -> Save" or just use your keyboard with "ctrl+s" to save (or update)
 
 Click "File -> Open" or "ctrl+o" will open a modal that let you choose the note you can open.
 
+### A little more
+
+You can find why and how I build this "FireNote" from my blog post - [Build a personal Markdown notebook with Firebase Storage](https://flinhong.com/2017/05/21/build-a-personal-markdown-notebook-with-firebase-storage/).
+
 ## Make yours
 
 For this repository and update the Firebase setting in "assets/script.js":
