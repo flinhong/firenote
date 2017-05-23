@@ -46,6 +46,6 @@ messagingSenderId: "<your sender id>"
 
 All the parameters can get from your Firbase console panel.
 
-[Set the CORS for loacalhost or your custom domain](https://flinhong.com/2017/05/21/build-a-personal-markdown-notebook-with-firebase-storage/#download-the-file-from-firebase-storage).
+[Set the CORS for localhost or your custom domain](https://flinhong.com/2017/05/21/build-a-personal-markdown-notebook-with-firebase-storage/#download-the-file-from-firebase-storage).
 
 Please ignore the code style in the `script.js` and make yours :stuck_out_tongue: ...
