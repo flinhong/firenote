@@ -28,7 +28,7 @@ $(document)
     // Initialize Firebase
     var config = {
     apiKey: "AIzaSyBXiYAPGOYyg25soKJNjMk3nIvWUPLd6uQ",
-    authDomain: "markdown-14046.firebaseapp.com",
+    authDomain: "firenote.flinhong.com",
     databaseURL: "https://markdown-14046.firebaseio.com",
     projectId: "markdown-14046",
     storageBucket: "markdown-14046.appspot.com",
