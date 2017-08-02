@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 
 cors-json-file.json
+.firebaserc
+firebase.json
+public/
