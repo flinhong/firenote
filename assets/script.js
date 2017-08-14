@@ -277,8 +277,10 @@ $(document)
             notebook = "Default Notebook";
         }
 
-        notedataRef = databaseRef.child(userID).child(notebook).child(fileName);
-        notefileRef = storageRef.child(userID).child(notebook).child(fileNameExt);
+        var fileNameKey = fileName.replace(new RegExp('\\/|\\.$#[]', 'g'),"_");  // file name validation for key
+        var fileNameExtKey = fileNameExt.replace(new RegExp('\\/|\\.$#[]', 'g'),"_");
+        notedataRef = databaseRef.child(userID).child(notebook).child(fileNameKey);
+        notefileRef = storageRef.child(userID).child(notebook).child(fileNameExtKey);
 
         notedataRef.once('value', function(snapshot) {
             var exists = (snapshot.val() !== null);
