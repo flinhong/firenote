@@ -1,8 +1,2 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-
-cors-json-file.json
-.firebaserc
-firebase.json
-public/
+database.rules.json
+.DS_Store
