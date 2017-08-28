@@ -31,7 +31,7 @@ You can find why and how I build this "FireNote" from my blog post - [Build a pe
 
 ## Make yours
 
-For this repository and update the Firebase setting in "assets/script.js":
+Fork this repository and update the Firebase setting in "public/assets/script.js":
 
 ```js
 var config = {
